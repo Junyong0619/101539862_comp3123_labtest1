@@ -1,7 +1,6 @@
+//Q1. Junyong Choi (101539862)
 const mixedArray = ['PIZZA',10,true,25,false,'Wings']
 
-// const lowerCaseWords = (mixedArray) => mixedArray.filter((str) => typeof str === 'string')
-// .map(str => str.toLowerCase())
 const lowerCaseWords = (mixedArray) => {
     return new Promise((resolve, reject)=>{
         if(Array.isArray(mixedArray)){
